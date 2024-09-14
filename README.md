@@ -40,7 +40,7 @@ cover linked lists), but generally we mean to compare the two
 object values, and therefore we use the `equals` method.
 
 **The Inspection of Strings**
-<br><br>
+<br>
 There are number of functions (methods) provided by the String class that can be found in the Java API.
 One to point out is the charAT method. It allows individual characters to be extract from a string.
 For example, if `name = “Joan”`,  then `name.charAt(0)` would return the character `‘J’` and  `name.charAt(1)` would return the character `‘o’`, etc.
@@ -48,7 +48,7 @@ Also, each character can be determined to be a letter or not by use of the `isLe
 There are similar methods `isDigit`, `isLowerCase`, `isUpperCase`, `isSpaceChar`, etc.
 
 **The Modification of Strings**
-<br><br>
+<br>
 String objects (values) are *immutable*. That means that their
 values cannot be changed. However, there are methods like
 `replace` for String types that allows the replacement of
