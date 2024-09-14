@@ -42,9 +42,14 @@ object values, and therefore we use the `equals` method.<br><br>
 **The Inspection of Strings**
 <br><br>
 There are number of functions (methods) provided by the String class that can be found in the Java API.
-One to point out is the charAT method. It allows individual characters to be extract from a string.
-For example, if `name = “Joan”`,  then `name.charAt(0)` would return the character `‘J’` and  `name.charAt(1)` would return the character `‘o’`, etc.
-Also, each character can be determined to be a letter or not by use of the `isLetter` (static) method of the `Character` class. For example, if `chr = ‘a’` then `Character.isLetter(chr)` would return true. If `chr = ‘,’` then `Character.isLetter(chr)` would return false.
+One to point out is the `charAT` method. It allows individual characters to be extract from a string.
+For example, if 
+<br><br>
+`name = “Joan”`,<br><br>
+then
+<br><br>`name.charAt(0)`<br><br>
+would return the character `‘J’` and  `name.charAt(1)` would return the character `‘o’`, etc.<br><br>
+Also, each character can be determined to be a letter or not by use of the `isLetter` (static) method of the `Character` class. For example, if <br><br>`chr = ‘a’`<br><br> then<br><br> `Character.isLetter(chr)`<br><br> would return true. If `chr = ‘,’` then `Character.isLetter(chr)` would return false.
 There are similar methods `isDigit`, `isLowerCase`, `isUpperCase`, `isSpaceChar`, etc.<br><br>
 
 **The Modification of Strings**
