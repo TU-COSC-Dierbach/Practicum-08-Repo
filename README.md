@@ -38,7 +38,10 @@ There are times when we do want to compare the memory locations
 of two object varaibles (we will see the use of this when we
 cover linked lists), but generally we mean to compare the two
 object values, and therefore we use the `equals` method.
-<br><br>**The Inspection of Strings**
+
+<br><br>
+**The Inspection of Strings**
+<br><br>
 There are number of functions (methods) provided by the String class that can be found in the Java API.
 One to point out is the charAT method. It allows individual characters to be extract from a string.
 For example, if `name = “Joan”`,  then `name.charAt(0)` would return the character `‘J’` and  `name.charAt(1)` would return the character `‘o’`, etc.
